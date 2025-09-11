@@ -9,8 +9,7 @@ const App = () => {
   return (
     <main>
       <Navbar/>
-      <Hero/>
-      <div className="h-dvh bg-black"></div>
+      <Hero/> 
     </main>
   )
 }
