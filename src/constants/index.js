@@ -18,58 +18,71 @@ const navLinks = [
 ];
 
 const cocktailLists = [
- {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Royal Mango Fusion",
+    country: "IN",
+    detail: "330 ml",
+    price: "₹550",
+  },
+  {
+    name: "Spiced Maharaja Martini",
+    country: "IN",
+    detail: "60 ml",
+    price: "₹620",
+  },
+  {
+    name: "Coconut Royale",
+    country: "IN",
+    detail: "330 ml",
+    price: "₹580",
+  },
+  {
+    name: "Saffron Twist",
+    country: "IN",
+    detail: "750 ml",
+    price: "₹650",
+  },
+  {
+    name: "Heritage Old Fashioned",
+    country: "IN",
+    detail: "60 ml",
+    price: "₹700",
+  },
 ];
 
 const mockTailLists = [
- {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Kesar Rose Cooler",
+    country: "IN",
+    detail: "330 ml",
+    price: "₹280",
+  },
+  {
+    name: "Mango Basil Refresher",
+    country: "IN",
+    detail: "350 ml",
+    price: "₹300",
+  },
+  {
+    name: "Coconut Lychee Bliss",
+    country: "IN",
+    detail: "330 ml",
+    price: "₹260",
+  },
+  {
+    name: "Jamun Sparkle",
+    country: "IN",
+    detail: "600 ml",
+    price: "₹320",
+  },
+  {
+    name: "Tulsi Lemon Elixir",
+    country: "IN",
+    detail: "750 ml",
+    price: "₹350",
+  },
 ];
+
 
 const profileLists = [
  {
