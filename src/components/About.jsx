@@ -1,0 +1,60 @@
+import gsap from 'gsap';
+import { SplitText} from 'gsap/all'
+import { useGSAP } from '@gsap/react'
+
+const About = () => {
+ useGSAP(() => {
+	const titleSplit = SplitText.create('#about h2', {
+	 type: 'words'
+	})
+	
+	const scrollTimeline = gsap.timeline({
+	 scrollTrigger: {
+		trigger: '#about',
+		start: 'top center'
+	 }
+	})
+	
+	scrollTimeline
+	 .from(titleSplit.words, {
+		opacity: 0, duration: 1, yPercent: 100, ease: 'expo.out', stagger: 0.02
+	})
+	 .from('.top-grid div, .bottom-grid div', {
+		opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.04,
+	}, '-=0.5')
+ })
+ 
+ return (
+	<div id="about">
+	 <div className="mb-16 md:px-0 px-5">
+		<div className="content">
+		 <div className="md:col-span-8">
+			<p className="badge">Best Cocktails</p>
+			<h2>
+			 Where every detail matters <span className="text-white">-</span>
+				from muddle to garnish
+			</h2>
+		 </div>
+		 
+		 <div className="sub-content">
+			<p>
+			Each mocktail we craft embodies our passion for perfection — from the first pour to the finishing touch. It’s this dedication that transforms a simple sip into an unforgettable experience.
+			</p>
+			
+			<div>
+			 <p className="md:text-3xl text-xl font-bold">
+				<span>9.6</span>/10
+			 </p>
+			 <p className="text-sm text-white-100">
+				More than +2000 customers
+			 </p>
+			</div>
+		 </div>
+		</div>
+	 </div>
+	 
+	  
+	</div>
+ )
+}
+export default About
