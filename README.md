@@ -1,39 +1,42 @@
-🥂 Swad-Ras
+# 🥂 Swad-Ras  
 
-A modern React web app powered by Vite, styled with Tailwind CSS, and animated using GSAP. 🚀
+> A modern React web app powered by **Vite**, styled with **Tailwind CSS**, and animated using **GSAP**. 🚀  
+> Built with clean architecture, reusable components, and smooth animations.  
 
-✨ Features
+---
 
-⚛ React Components – Modular & reusable (About, Art, Cocktails, Contact, Hero, Menu, Navbar)
+## 🔗 Live Demo  
 
-🎨 Tailwind CSS – Utility-first styling for rapid UI development
+Try it out: [https://swad-ras.netlify.app](https://swad-ras.netlify.app/) 🌍  
 
-🎞️ GSAP Animations – Smooth, interactive animations for a delightful UX
+---
 
-⚡ Vite – Blazing fast development server and optimized production build
+## ✨ Features  
 
-🧩 Clean Architecture – Components & constants well-structured for scalability
+- ⚛ **React Components** – Modular & reusable (`About`, `Art`, `Cocktails`, `Contact`, `Hero`, `Menu`, `Navbar`)  
+- 🎨 **Tailwind CSS** – Utility-first styling for responsive & modern UI  
+- 🎞️ **GSAP Animations** – Smooth animations for an engaging user experience  
+- ⚡ **Vite** – Blazing fast dev server & optimized production build  
+- 🧩 **Organized Structure** – Components & constants separated for scalability  
+- ✅ **ESLint** – Ensures consistent code quality  
 
-✅ ESLint – Ensures consistent code quality
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack  
 
-React 18+ ⚛
+- **React 18+** ⚛  
+- **Tailwind CSS** 🎨  
+- **GSAP (GreenSock Animation Platform)** 🎞️  
+- **Vite** ⚡  
+- **JavaScript (ES6+)** 📜  
 
-Tailwind CSS 🎨
+---
 
-GSAP (GreenSock Animation Platform) 🎞️
+## 🚀 Getting Started  
 
-Vite ⚡
+Clone the repo and run it locally:  
 
-JavaScript (ES6+) 📜
-
-Node.js + npm 🔧
-
-🚀 Getting Started
-
-Clone the repo and run it locally:
-
+```bash
 # 1. Clone the repository
 git clone https://github.com/hrushi-harde/swad-ras.git
 cd swad-ras
@@ -46,7 +49,6 @@ npm run dev
 
 # 4. Open in browser
 # Default: http://localhost:5173
-
 📦 Available Scripts
 Command	Description
 npm run dev	Start dev server with hot reload ⚡
@@ -55,7 +57,7 @@ npm run preview	Preview production build locally 🔍
 npm run lint	Check code quality with ESLint ✅
 
 📂 Project Structure
-   swad-ras/
+swad-ras/
 ├── public/                # Static assets
 ├── src/
 │   ├── components/        # UI components
@@ -77,12 +79,12 @@ npm run lint	Check code quality with ESLint ✅
 ├── package.json
 ├── vite.config.js
 └── README.md
-
 🌍 Deployment
-
 Build project:
-npm run build
 
+bash
+Copy code
+npm run build
 Deploy dist/ folder to:
 
 Vercel ▲
@@ -92,7 +94,6 @@ Netlify 🌐
 GitHub Pages 📄
 
 🤝 Contributing
-
 Contributions are welcome! 🎉
 
 Fork this repo 🔱
@@ -106,10 +107,18 @@ Push: git push origin feature/your-feature 🚀
 Open a Pull Request 🔀
 
 📜 License
-
 This project is currently unlicensed.
 👉 Add a LICENSE file (MIT recommended) if you want it open source.
 
 👨‍💻 Author
-
 Hrushikesh Harde
+🔗 GitHub Profile
+
+🙏 Acknowledgements
+React ⚛
+
+Tailwind CSS 🎨
+
+GSAP 🎞️
+
+Vite ⚡
