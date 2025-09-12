@@ -53,8 +53,9 @@ npm run dev	Start dev server with hot reload ⚡
 npm run build	Build for production 📦
 npm run preview	Preview production build locally 🔍
 npm run lint	Check code quality with ESLint ✅
+
 📂 Project Structure
-swad-ras/
+   swad-ras/
 ├── public/                # Static assets
 ├── src/
 │   ├── components/        # UI components
