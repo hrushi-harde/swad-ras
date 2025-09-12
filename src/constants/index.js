@@ -182,7 +182,15 @@ const sliderLists = [
  },
 ];
 
+const allCocktails = [
+  { name: "Royal Mango Fusion"},
+  { name: "Basil Paloma"},
+  { name: "Paloma Negra"},
+  { name : "Salt rim"}
+];
+
 export {
+ allCocktails,
  navLinks,
  cocktailLists,
  mockTailLists,
