@@ -80,9 +80,7 @@ swad-ras/
 🌍 Deployment
 
 Build project:
-
 npm run build
-
 
 Deploy dist/ folder to:
 
