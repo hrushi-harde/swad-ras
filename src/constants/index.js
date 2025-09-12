@@ -100,17 +100,17 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Exotic, flavor-rich blends",
+  "Elegantly garnished creations",
+  "Chilled to perfection",
+  "Crafted with mixology mastery",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Finest handpicked ingredients",
+  "Signature bartending techniques",
+  "Artistry in every pour",
+  "Freshly infused flavors",
 ];
 
 const storeInfo = {

@@ -92,22 +92,22 @@ const Hero = () => {
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Cool. Crisp. Classic.</p>
+              <p>Exotic. Flavorful. Unforgettable.</p>
               <p className="subtitle">
-                Sip the Spirit <br /> of Summer
+                Taste the Essence <br /> of Elegance
               </p>
             </div>
-            <div className="view-cocktails">
-              <p className="subtitle">
-                Each cocktail we serve is a masterpiece – crafted with premium
-                spirits, fresh ingredients, and a touch of artistry to create
-                unforgettable moments in every sip.
-              </p>
-              <a href="#cocktails">View Cocktails</a>
-            </div>
+          <div className="view-cocktails">
+            <p className="subtitle">
+              Each cocktail we serve is a masterpiece – crafted with premium
+              spirits, fresh ingredients, and a touch of artistry to create
+              unforgettable moments in every sip.
+            </p>
+            <a href="#cocktails">View Cocktails</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section >
 
       <div className="video absolute inset-0">
         <video
