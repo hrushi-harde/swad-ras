@@ -30,6 +30,7 @@ const Menu = () => {
 	setCurrentIndex(newIndex);
  }
  
+ 
  const getCocktailAt = (indexOffset) => {
 	return allCocktails[(currentIndex + indexOffset + totalCocktails) % totalCocktails]
  }
