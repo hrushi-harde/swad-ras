@@ -1,12 +1,116 @@
-# React + Vite
+🥂 Swad-Ras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React web app powered by Vite, styled with Tailwind CSS, and animated using GSAP. 🚀
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛ React Components – Modular & reusable (About, Art, Cocktails, Contact, Hero, Menu, Navbar)
 
-## Expanding the ESLint configuration
+🎨 Tailwind CSS – Utility-first styling for rapid UI development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎞️ GSAP Animations – Smooth, interactive animations for a delightful UX
+
+⚡ Vite – Blazing fast development server and optimized production build
+
+🧩 Clean Architecture – Components & constants well-structured for scalability
+
+✅ ESLint – Ensures consistent code quality
+
+🛠️ Tech Stack
+
+React 18+ ⚛
+
+Tailwind CSS 🎨
+
+GSAP (GreenSock Animation Platform) 🎞️
+
+Vite ⚡
+
+JavaScript (ES6+) 📜
+
+Node.js + npm 🔧
+
+🚀 Getting Started
+
+Clone the repo and run it locally:
+
+# 1. Clone the repository
+git clone https://github.com/hrushi-harde/swad-ras.git
+cd swad-ras
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+
+# 4. Open in browser
+# Default: http://localhost:5173
+
+📦 Available Scripts
+Command	Description
+npm run dev	Start dev server with hot reload ⚡
+npm run build	Build for production 📦
+npm run preview	Preview production build locally 🔍
+npm run lint	Check code quality with ESLint ✅
+📂 Project Structure
+swad-ras/
+├── public/                # Static assets
+├── src/
+│   ├── components/        # UI components
+│   │   ├── About.jsx
+│   │   ├── Art.jsx
+│   │   ├── Cocktails.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Menu.jsx
+│   │   └── Navbar.jsx
+│   ├── constants/         # App constants
+│   │   └── index.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+🌍 Deployment
+
+Build project:
+
+npm run build
+
+
+Deploy dist/ folder to:
+
+Vercel ▲
+
+Netlify 🌐
+
+GitHub Pages 📄
+
+🤝 Contributing
+
+Contributions are welcome! 🎉
+
+Fork this repo 🔱
+
+Create a branch: git checkout -b feature/your-feature 🌿
+
+Commit changes: git commit -m "feat: add feature" ✍️
+
+Push: git push origin feature/your-feature 🚀
+
+Open a Pull Request 🔀
+
+📜 License
+
+This project is currently unlicensed.
+👉 Add a LICENSE file (MIT recommended) if you want it open source.
+
+👨‍💻 Author
+
+Hrushikesh Harde
