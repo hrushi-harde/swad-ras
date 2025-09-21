@@ -76,18 +76,9 @@ const Hero = () => {
   return (
     <>
       <section id="hero" className="noisy">
-        <h1 className="title">PALOMA</h1>
+        <h1 className="title pt-{-10}">PALOMA</h1>
 
-        <img
-          src="/images/hero-left-leaf.png"
-          alt="left-leaf"
-          className="left-leaf"
-        />
-        <img
-          src="/images/hero-right-leaf.png"
-          alt="right-leaf"
-          className="right-leaf"
-        />
+      
 
         <div className="body">
           <div className="content">
@@ -97,17 +88,17 @@ const Hero = () => {
                 Taste the Essence <br /> of Elegance
               </p>
             </div>
-          <div className="view-cocktails">
-            <p className="subtitle">
-              Each cocktail we serve is a masterpiece – crafted with premium
-              spirits, fresh ingredients, and a touch of artistry to create
-              unforgettable moments in every sip.
-            </p>
-            <a href="#cocktails">View Cocktails</a>
+            <div className="view-cocktails">
+              <p className="subtitle">
+                Each cocktail we serve is a masterpiece – crafted with premium
+                spirits, fresh ingredients, and a touch of artistry to create
+                unforgettable moments in every sip.
+              </p>
+              <a href="#cocktails">View Cocktails</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section >
+      </section>
 
       <div className="video absolute inset-0">
         <video
